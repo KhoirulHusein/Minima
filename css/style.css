@@ -40,9 +40,14 @@
   padding: 0 25px;
 }
 
-.bag-profile button img{
-  height: 39px;
-  width: auto;
+.bag {
+  width: 35px;
+  height: auto;
+}
+
+.profile {
+  width: 30px;
+  height: auto;
 }
 
 carousel-color-1 {

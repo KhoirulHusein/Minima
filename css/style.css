@@ -10,6 +10,28 @@
   font-size: 18px;
   font-weight: 500;
   padding: 0 30px;
+  background: none;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+#navbarSupportedContent ul li a:after {
+  content: '';
+  height: 2px;
+  width: 0%;
+  background-color: #C26767;;
+  display: block;
+  transition: .5s ease-in-out;
+}
+
+#navbarSupportedContent ul li a:hover::after {
+  content: '';
+  height: 2px;
+  width: 100%;
+  background-color: #C26767;;
+  display: block;
+  transition: .5s ease-in-out;
 }
 
 @media screen and (min-width: 600px) {

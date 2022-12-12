@@ -60,7 +60,7 @@
 								<input type="email" placeholder="Email Address" required>
 							</div>
 							<div class="mb-3">
-								<button class="btn" type="submit">Send Reset link</button>
+								<button class="btn" type="submit" id="liveToastBtn">Send Reset link</button>
 							</div>
 						</form>
 					</div>
@@ -79,6 +79,21 @@
 			</div>
 		</div>
 	</div>
+
+	<div class="toast-container position-fixed bottom-0 end-0 p-3">
+    <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+      <div class="toast-header">
+        <img src="./img/layout/icon-navbar.svg" class="rounded me-2" alt="..." style="width: 20px;">
+        <strong class="me-auto">Minima</strong>
+        <small class="text-secondary">Now</small>
+        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+      </div>
+      <div class="toast-body">
+        Silahkan Cek <span class="text-warning">EMAIL</span> Anda
+      </div>
+    </div>
+  </div>
+  <script src="/js/toast.js"></script>
 
 	<script type="text/javascript">
 		function PasswordReset(){

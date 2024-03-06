@@ -38,7 +38,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+            <a class="nav-link active" aria-current="page" href="./index.html">HOME</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" id="Active" href="product.html">PRODUCT</a>
@@ -47,7 +47,7 @@
             <a class="nav-link active" href="aboutUS.html">ABOUT US</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="#">CONTACT</a>
+            <a class="nav-link active" href="contact.html">CONTACT</a>
           </li>
         </ul>
         <form class="d-flex" role="search">
@@ -59,18 +59,18 @@
 
         <!-- Button Bag dan profile -->
         <div class="bag-profile">
-          <button class="btn" type="submit">
-            <img class="bag" href="#" src="./img/layout/shoping-bag.svg" alt="Kantong belanja">
-          </button>
-          <button class="btn" type="submit">
-            <img src="./img/layout/profile.svg" alt="Profile">
-          </button>
+          <a class="btn" type="submit" href="kranjang.html">
+            <img class="bag" src="./img/layout/shoping-bag.svg" alt="Kantong belanja">
+          </a>
+          <a class="btn" type="submit" href="login.html">
+            <img class="profile" src="./img/layout/profile.svg" alt="Profile">
+          </a>
         </div>
-
       </div>
     </div>
   </nav>
 
+  <!-- Main Content -->
   <div class="container">
     <h1 class="text-center"> NEW PRODUCT </h1>
     <div class="row justify-content-center product">
@@ -82,11 +82,11 @@
                 <h5 class="card-title">Vedbo Chair</h5>
                 <p class="card-text">Kursi berlengan, <br>gunnared hijau</p>
                 <h4 class="price">Rp. 1.000,000</h4>
-                <button class="btn buy-now" href="orderStatus.html">BUY NOW</button>
+                <a class="btn buy-now" href="./cart-2/chair.html">BUY NOW</a>
               </div>
             </div>
             <div class="col-md-4 py-4">
-              <img id="image-chair" src="./img/content/Chair.svg" class="img-fluid" alt="...">
+              <img id="image-chair" src="./img/content/Chair.svg" class="" alt="...">
             </div>
           </div>
         </div>
@@ -100,7 +100,7 @@
                 <h5 class="card-title">Ingared Lamp</h5>
                 <p class="card-text">Lampu meja, <br>krem, 30cm</p>
                 <h4>Rp. 199.000</h3>
-                <button href="orderStatus.html" class="btn buy-now">BUY NOW</button>
+                <a class="btn buy-now" href="./cart-2/lamp.html">BUY NOW</a>
               </div>
             </div>
             <div class="col-md-4">
@@ -118,11 +118,11 @@
                 <h5 class="card-title">Malm</h5>
                 <p class="card-text">lemari 4 laci, coklat, <br>veneer kayu ash</p>
                 <h4>Rp. 2.000.000</h4>
-                <button class="btn buy-now">BUY NOW</button>
+                <a href="./cart-2/drawer.html" class="btn buy-now">BUY NOW</a>
               </div>
             </div>
             <div class="col-md-4 py-4">
-              <img id="image-drawer" src="./img/content/Drawer.svg" class="img-fluid" alt="Drawer">
+              <img id="image-drawer" src="./img/content/Drawer.svg" class="" alt="Drawer">
             </div>
           </div>
         </div>
@@ -135,7 +135,6 @@
 
   <!-- Footer -->
   <section class="margin">
-    <!-- Footer -->
     <footer class="text-center text-md-start">
       <!-- Grid container -->
       <div class="container p-4">
@@ -209,6 +208,5 @@
     </footer>
     <!-- Footer -->
   </section>
-
 </body>
 </html>
